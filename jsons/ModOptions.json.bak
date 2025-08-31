@@ -1,0 +1,14 @@
+{
+"isBaseRuleset": true,
+"uniques":[
+        "Allow raze capital",
+        "Allow raze holy city"
+    ],
+"constants":{"maxXPfromBarbarians": 30,
+"cityWorkRange": 4,
+"baseCityBombardRange": 0
+"religionLimitMultiplier": 1,
+"riverCountMultiplier": 0.02,
+"cityStrengthBase": 6.0,
+"cityStrengthPerPop": 0.5,}
+}

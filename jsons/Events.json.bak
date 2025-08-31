@@ -1,0 +1,288 @@
+[
+    {
+        "name":"Tutorial Task: [Move unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Move a unit!", "centered":true},
+            {"extraImage":"Tutorials/Move unit", "imageSize":140},
+            {"text":"Click on a unit → Click on a destination → Click the arrow popup."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Units] is more than [0]>",
+            "Unavailable <if tutorial [Move unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Found city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Found a city!", "centered":true},
+            {"extraImage":"Tutorials/Found city", "imageSize":140},
+            {"text":"Select the Settler → Click on 'Found city'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Settler] Units] is more than [0]>",
+            "Unavailable <if tutorial [Found city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Enter city screen]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Enter the city screen!", "centered":true},
+            {"extraImage":"Tutorials/Enter city screen", "imageSize":100},
+            {"text":"Click the city button twice."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Enter city screen] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick technology]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pick a technology to research!", "centered":true},
+            {"extraImage":"Tutorials/Pick technology", "imageSize":180},
+            {"text":"Click on the tech button → Select technology → Click 'Research' (bottom right)."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <if tutorial [Found city] is completed>",
+            "Unavailable <if tutorial [Pick technology] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pick construction]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pick a construction!", "centered":true},
+            {"extraImage":"Tutorials/Pick construction", "imageSize":120},
+            {"text":"Enter city screen → Click on a unit or building → Click 'add to queue'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Pick construction] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Pass a turn]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Pass a turn!", "centered":true},
+            {"extraImage":"Tutorials/Pass a turn", "imageSize":180},
+            {"text":"Cycle through units with 'Next unit' → Click 'Next turn'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is less than [3]>",
+            "Unavailable <if tutorial [Pass a turn] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Reassign worked tiles]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Reassign worked tiles!", "centered":true},
+            {"extraImage":"Tutorials/Reassign worked tiles", "imageSize":140},
+            {"text":"Enter city screen → Click the assigned tile to unassign → Click an unassigned tile to assign population."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Reassign worked tiles] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Meet another civilization]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Meet another civilization!", "centered": true},
+            {"extraImage":"Tutorials/Meet another civilization", "imageSize":160},
+            {"text":"Explore the map until you encounter another civilization!"},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [turns] is more than [1]>",
+            "Unavailable <if tutorial [Meet another civilization] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [Meet another civilization] complete"],
+            },
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Open the options table]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Open the options dialog!", "centered":true},
+            {"extraImage":"Tutorials/Open the options table", "imageSize":130},
+            {"text":"Click the menu button (top left) → Click 'Options'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [Open the options table] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Construct an improvement]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Construct an improvement!", "centered":true},
+            {"extraImage":"Tutorials/Construct an improvement", "imageSize":150},
+            {"text":"Construct a Worker unit → Move it to a Plains or Grassland tile → Click 'Construct improvement' → Choose the farm → Leave the worker there until it's finished."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [0]>",
+            "Unavailable <if tutorial [Construct an improvement] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Create a trade route]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Create a trade route!", "centered":true},
+            {"extraImage":"Tutorials/Create a trade route", "imageSize":120},
+            {"text":"Construct roads between your capital and another city. Or, automate your worker and let him get to that eventually."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Cities] is more than [1]>",
+            "Unavailable <if tutorial [Create a trade route] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Conquer a city]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Conquer a city!", "centered":true},
+            {"extraImage":"Tutorials/Conquer a city", "imageSize":160},
+            {"text":"Bring an enemy city down to low health → Enter the city with a melee unit."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when at war>",
+            "Unavailable <if tutorial [Conquer a city] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [Move an air unit]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"Move an air unit!", "centered":true},
+            {"extraImage":"Tutorials/Move an air unit", "imageSize":140},
+            {"text":"Select an air unit → Select another city within range → Move the unit to the other city."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Air] Units] is more than [0]>",
+            "Unavailable <if tutorial [Move an air unit] is completed>"
+        ]
+    },
+    {
+        "name":"Tutorial Task: [See your stats breakdown]",
+        "presentation":"Floating",
+        "civilopediaText":[
+			{"text":"See your stats breakdown!", "centered":true},
+            {"extraImage":"Tutorials/See your stats breakdown", "imageSize":140},
+            {"text":"Enter the Overview screen (top right corner) → Click on 'Stats'."},
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled>",
+            "Unavailable <if tutorial [See your stats breakdown] is completed>"
+        ]
+    },
+    {
+        "name": "献祭",
+        "text": "你将人之鲜血献给神明作为祭品，神很高兴并给予你赐福",
+        "choices": [
+            {
+                "text": "国泰民安",
+                "uniques": ["Empire enters a [3]-turn Golden Age"],
+            },
+            {
+                "text": "虔诚信仰",
+                "uniques": ["Gain enough Faith for [10]% of a Great Prophet"],
+            },
+            {
+                "text": "文化繁荣",
+                "uniques": ["Gain [40] [Culture] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [0]>"]
+            },
+            {
+                "text": "科技腾飞",
+                "uniques": ["Gain [50] [Science] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [0]>"]
+            },
+            {
+                "text": "钟鸣鼎食",
+                "uniques": ["Gain [100] [Gold] <(modified by game speed)>", "Only available <before turn number [50]>", "Only available <after turn number [0]>"]
+            },
+            {
+                "text": "天降神兵",
+                "uniques": ["[+10]% Strength <for [Military] units> <for [5] turns>", "Only available <before turn number [50]>", "Only available <after turn number [0]>"]
+            },
+            {
+                "text": "文心雕龙",
+                "uniques": ["Gain [120] [Culture] <(modified by game speed)>", "Only available<after turn number [49]>"]
+            },
+            {
+                "text": "奥古智慧",
+                "uniques": ["Gain [140] [Science] <(modified by game speed)>", "Only available<after turn number [49]>"]
+            },
+            {
+                "text": "金块珠砬",
+                "uniques": ["Gain [200] [Gold] <(modified by game speed)>", "Only available<after turn number [49]>"]
+            },
+            {
+                "text": "大显神威",
+                "uniques": ["[+15]% Strength <for [Military] units> <for [5] turns>", "Only available<after turn number [49]>"]
+            },
+        ]
+    },
+{
+        "name": "选择干员",
+        "text": "选择一位强大的干员作为你的助力",
+        "choices": [
+            {
+                "text": "威龙",
+                "uniques": ["Free [威龙] appears"],
+            },
+            {
+                "text": "露娜",
+                "uniques": ["Free [露娜] appears"],
+            },
+            {
+                "text": "无名",
+                "uniques": ["Free [无名] appears"],
+            },
+            ],
+    },
+   {
+        "name": "黑暗时代",
+        "text": "看起来您的文明发展有点糟糕，再接再厉吧！",
+        "choices": [
+            {
+                "text": "修行制度：所有城市的科研增加75%但消除每座城市的文化产出",
+                "uniques": ["Gain a free [修行制度] [in capital]"],
+            },
+            {
+                "text": "迟暮勇武：所有军事单位加25%战斗力但减少一移动力",
+                "uniques": ["Gain a free [迟暮勇武] [in capital]"],
+            },
+            {
+                "text": "宗教审判：审判官的信仰花费减少75%，所有城市信仰产出加25%但科研产出减少33%",
+                "uniques": ["Gain a free [宗教审判] [in capital]"]
+            },
+            {
+                "text": "敛财大亨：每座城市加33%的金钱但减少一快乐",
+                "uniques": ["Gain a free [敛财大亨] [in capital]"]
+            },
+            {
+                "text": "穷兵黩武：每座城市建造军事单位时加33%产能，但减少10%科文，人口造成的不快乐加25%",
+                "uniques": ["Gain a free [穷兵黩武] [in capital]"]
+            },
+            {
+                "text": "集体主义：所有城市加四粮食，人口造成的不快乐加50%",
+                "uniques": ["Gain a free [集体主义] [in capital]"]
+            },
+            {
+                "text": "强迫劳动：所有城市加25%生产力但减少2快乐",
+                "uniques": ["Gain a free [强迫劳动] [in capital]"]
+            },
+        ]
+    },
+]

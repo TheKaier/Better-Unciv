@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Scientific",
+        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
+        "milestones": [
+            "Build [Apollo Program]", "Add all [spaceship parts] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "SS Engine", "SS Stasis Chamber", "SS Cockpit", "SS Booster", "SS Booster", "SS Booster"
+        ],
+        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Cultural",
+        "victoryScreenHeader": "Complete 5 policy branches and\nbuild the Utopia Project to win!",
+        "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
+        "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Domination",
+        "victoryScreenHeader": "Capture all enemy Capitals\nto win!",
+        "milestones": ["Capture all capitals"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Diplomatic",
+        "victoryScreenHeader": "Build the UN and be voted\nworld leader to win!",
+        "milestones": ["Anyone should build [United Nations]", "Win diplomatic vote"],
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Time",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Have highest score after max turns"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+{
+        "name": "Religion",
+        "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "Become the world religion and build the Grand Temple\nto win!",
+        "milestones": ["Build [Grand Temple]","Become the world religion"],
+        "victoryString": "You have achieved victory by becoming the only faith in the world! Believing in something stronger is a fundamental human demand, and now, everyone will pray for you. Your words and actions represent everything, and those false beliefs have been forgotten and extinguished in your glory.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "斗地主模式",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Win diplomatic vote"],
+        "victoryScreenHeader": "Become the world religion and build the Grand Temple\nto win!",
+        "victoryString": "一种用来娱乐的模式，有一名玩家扮演地主，两位玩家联合进行对抗地主",
+        "defeatString": "双方可以使用任何一种胜利方式进行胜利，农民有一方获得胜利，即算农民全体胜利"
+    },
+]

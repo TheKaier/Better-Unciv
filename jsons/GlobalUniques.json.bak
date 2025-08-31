@@ -1,0 +1,131 @@
+{
+    "name": "Global uniques",
+    "uniques": ["Instantly provides [3] [时代分] <upon enhancing a Religion>","[+5]% growth [in all cities] <when between [1] and [5] [Happiness]>",
+        "[+10]% growth [in all cities] <when between [6] and [10] [Happiness]>",
+        "[+15]% growth [in all cities] <when between [11] and [15] [Happiness]>",
+        "[+20]% growth [in all cities] <when between [16] and [20] [Happiness]>",
+        "[+25]% growth [in all cities] <when between [21] and [25] [Happiness]>",             "[+33]% growth [in all cities] <when between [26] and [30] [Happiness]>",             "[+33]% growth [in all cities] <when number of [Happiness] is more than [30]>",
+        "[-25]% growth [in all cities] <when between [-5] and [-1] [Happiness]>",
+        "[-50]% growth [in all cities] <when between [-10] and [-6] [Happiness]>",
+        "[-75]% growth [in all cities] <when between [-30] and [-11] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-30] [Happiness]>",
+        "[-15]% [Production] [in all cities] <when between [-25] and [-16] [Happiness]>",
+        "[-15]% [Science] [in all cities] <when between [-25] and [-21] [Happiness]>",
+        "[-15]% [Culture] [in all cities] <when between [-25] and [-21] [Happiness]>",
+        "[-20]% [Production] [in all cities] <when between [-30] and [-26] [Happiness]>",
+        "[-20]% [Culture] [in all cities] <when between [-30] and [-26] [Happiness]>",
+        "[-20]% [Science] [in all cities] <when between [-30] and [-26] [Happiness]>",
+        "[-20]% [Gold] [in all cities] <when between [-30] and [-26] [Happiness]>",
+        "[-33]% [Production] [in all cities] <when below [-30] [Happiness]>"
+        "[-33]% [Culture] [in all cities] <when below [-30] [Happiness]>"
+        "[-33]% [Science] [in all cities] <when below [-30] [Happiness]>"
+        "[-33]% [Gold] [in all cities] <when below [-30] [Happiness]>"
+        "[-33]% [Production] [in all cities] <when below [-30] [Happiness]>",
+        "[-5]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "[-10]% Strength <for [All] units> <when below [-20] [Happiness]>",
+        "[-15]% Strength <for [All] units> <when below [-30] [Happiness]>",
+        "Cannot build [Settler] units <when below [-30] [Happiness]>",
+        "Rebel units may spawn <when below [-30] [Happiness]>",
+        "[-10]% [Production] <if [产能制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+10]% [Production] <if [产能制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[-10]% [Food] <if [粮食制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+10]% [Food] <if [粮食制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[-10]% [Gold] <if [金钱制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+10]% [Gold] <if [金钱制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[-10]% [Happiness] <if [快乐制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+10]% [Happiness] <if [快乐制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[-10]% [Culture] <if [文化制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+10]% [Culture] <if [文化制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[-10]% [Science] <if [科技制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+10]% [Science] <if [科技制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[-5]% Strength <for [All] units> <if [军事制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+5]% Strength <for [All] units> <if [军事制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[-10]% [Faith] <if [信仰制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[+10]% [Faith] <if [信仰制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+15]% [Production] <when above [0] [援助]> <if [产能制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-10]% [Production] <when above [0] [援助]> <if [产能制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+15]% [Food] <when above [0] [援助]> <if [粮食制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-10]% [Food] <when above [0] [援助]> <if [粮食制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+15]% [Gold] <when above [0] [援助]> <if [金钱制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-10]% [Gold] <when above [0] [援助]> <if [金钱制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+15]% [Happiness] <when above [0] [援助]> <if [快乐制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-10]% [Happiness] <when above [0] [援助]> <if [快乐制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+15]% [Culture] <when above [0] [援助]> <if [文化制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-10]% [Culture] <when above [0] [援助]> <if [文化制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+15]% [Science] <when above [0] [援助]> <if [科技制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-10]% [Science] <when above [0] [援助]> <if [科技制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+10]% Strength <for [All] units> <when above [0] [援助]> <if [军事制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-8]% Strength <for [All] units> <when above [0] [援助]> <if [军事制裁] is constructed by anybody> <for [America] Civilizations>",
+		"[+15]% [Faith] <when above [0] [援助]> <if [信仰制裁] is constructed by anybody> <for [All] Civilizations>",
+		"[-10]% [Faith] <when above [0] [援助]> <if [信仰制裁] is constructed by anybody> <for [America] Civilizations>",
+        "[-1] Sight <for [Embarked] units>", 
+        // TODO: Implement the uniques below
+        // "[+20]% [Culture] [in all cities] <during a golden age>",
+        // "[+20]% [Production] [in all cities] <during a golden age>",
+
+        // "[+10]% growth [in all cities] <during We Love The King Day>",
+
+        // "Nullifies All Yield <while is in resistance>",
+
+        // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
+        // "[-25]% [Culture] [in pupetted cities]"
+
+        // "[+20]% [Production] [in cities connected via railroad]"
+        // something something unit supply
+   "[+1]% Strength <for every [10] [战争支持]> <for [All] units>",
+        "Instantly consumes [10] [战争支持] <upon declaring war on [Major] Civilizations>",
+        //"Consumes [5] [战争支持] <when at war> <when above [0] [战争支持]>",
+        //"Consumes [5] [战争支持] <for every [50] [战争支持]> <when above [100] [战争支持]>",
+        "Instantly consumes [5] [战争支持] <when at war> <when above [0] [战争支持]> <upon turn end>",
+        "Instantly provides [5] [战争支持] <when below [0] [战争支持]> <upon turn end>",
+        "Instantly consumes [5] [战争支持] <for every [50] [战争支持]> <when above [100] [战争支持]> <upon turn end>",
+        "[+10]% [Production] [in all cities] <during We Love The King Day>",
+        "[+10]% [Science] [in all cities] <during We Love The King Day>",
+        "[+10]% [Culture] [in all cities] <during We Love The King Day>",
+        "Provides [1] [厌战情绪] <when at war>",
+    "Provides [1] [厌战情绪]  <when below [0] [厌战情绪]>",
+    "Instantly consumes [15] [厌战情绪] <upon conquering a city>"
+    
+    "Provides [-1] [厌战情绪] <when not at war> <when above [0] [厌战情绪]>",
+    "Provides [-1] [厌战情绪] <when not at war> <when above [10] [厌战情绪]>",  
+    "Provides [-1] [厌战情绪] <when not at war> <when above [30] [厌战情绪]>",
+    "Provides [-1] [厌战情绪] <when not at war> <when above [50] [厌战情绪]>",
+    "Provides [-1] [厌战情绪] <when not at war> <when above [70] [厌战情绪]>",
+    "Provides [-1] [厌战情绪] <when not at war> <when above [100] [厌战情绪]>",
+    
+    //厌战度（10，30）
+    "[+10]% Unhappiness from [Population] [in all cities] <when above [15] [厌战情绪]> <(modified by game speed)>",
+   
+    //厌战度（30，50）
+    "[-15]% [Gold] <when above [45] [厌战情绪]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [45] [厌战情绪]> <(modified by game speed)>",
+    
+    //厌战度（50，70）
+    "[-5]% [Gold] <when above [75] [厌战情绪]> <(modified by game speed)>",
+    "[-20]% [Production] [in all cities] <when above [75] [厌战情绪]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [75] [厌战情绪]> <(modified by game speed)>",    
+    
+    //厌战度（70，100）
+    "[-5]% [Gold] <when above [105] [厌战情绪]> <(modified by game speed)>", 
+    "[-5]% [Production] [in all cities] <when above [105] [厌战情绪]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [105] [厌战情绪]> <(modified by game speed)>", 
+    "Rebel units may spawn <when above [105] [厌战情绪]> <(modified by game speed)>",     
+    
+    //厌战度（100，+∞）
+    "[-5]% [Gold] <when above [150] [厌战情绪]> <(modified by game speed)>",
+    "[-5]% [Production] [in all cities] <when above [150] [厌战情绪]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [150] [厌战情绪]> <(modified by game speed)>",    
+    "[-30]% Strength <for [Military] units> <when above [150] [厌战情绪]> <(modified by game speed)>"
+   "Triggers a [黑暗时代] event <upon entering a new era> <when below [10] [时代分]> <(modified by game speed)>","[+1]% Strength <for [Military] units> <vs [Carthage] units> <for [Rome] Civilizations>",
+        "[+1]% Strength <for [Military] units> <vs [Babylon] units> <for [Persia] Civilizations>","[-100]% to Flank Attack bonuses <before adopting [Honor]>","[-100]% Strength for cities <when attacking> <in cities without a [Walls]>",
+       "[-50]% unhappiness from the number of cities"
+   ]
+"unitUniques": [
+        "May attack when embarked",
+        "Instantly provides [1] [厌战情绪] <upon being defeated>",
+        "Instantly consumes [1] [厌战情绪] <upon defeating a [Major] unit> <when above [0] [厌战情绪]>",
+        "Unit will heal every turn, even if it performs an action <for [兰斯帝国] Civilizations>",
+        "[-10]% Strength <for [Military] units> <vs [中文U圈] units>"
+        "Ignores Zone of Control <for [兰斯帝国] Civilizations>","[This Unit] loses [100] movement <upon being promoted>","[This Unit] heals [40] HP <upon being promoted>"
+        "May enter foreign tiles without open borders <for [兰斯帝国] Civilizations>"],
+}
