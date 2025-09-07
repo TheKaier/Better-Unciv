@@ -620,7 +620,7 @@
 	{
 		"name": "Warfare Aversion Level",  
 		"resourceType": "Strategic",
-	    "uniques": ["Stockpiled", "Cannot be traded"]	
+	    "uniques": ["Stockpiled", "Cannot be traded","Not shown on world screen"]	
 
 	// 数量
 	},
@@ -708,7 +708,7 @@
 	{
 		"name": "Diplomatic Point",  
 		"resourceType": "Strategic",
-	    "uniques": ["Cannot be traded"]
+	    "uniques": ["Cannot be traded","Not shown on world screen"]
 	}
 	// 种子
     {
@@ -734,15 +734,6 @@
 		"[-4 Happiness] [in capital]",
 		]
 	},
-    {
-		"name": "War support",//战争支持
-		"resourceType": "Strategic",
-		"uniques": [
-		//"Cannot be traded"//不能交易
-		"Stockpiled"//库存
-		"Not shown on world screen",//不显示
-		]
-	},
    {
 		"name": "厌战情绪",  
 		"resourceType": "Strategic",
@@ -752,7 +743,7 @@
 		"name": "战争支持",//战争支持
 		"resourceType": "Strategic",
 		"uniques": [
-		//"Cannot be traded"//不能交易
+		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		"Not shown on world screen",//不显示
 		]
@@ -761,8 +752,16 @@
 		"name": "时代分",//时代分
 		"resourceType": "Strategic",
 		"uniques": [
-		//"Cannot be traded"//不能交易
-		"Stockpiled"//库存
+		"Cannot be traded"//不能交易
+	    "Stockpiled"
+		]
+	},
+{
+		"name": "征服点数",//时代分
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+	    "Not shown on world screen"
 		]
 	},
 ]

@@ -1251,7 +1251,7 @@
 		"maintenance": 2,
 	"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Cataphract] appears",
+		"uniques": ["Free [Cataphract] appears","Unsellable"
 			"Provides [1] [Horses]"
 			],
 		"requiredTech": "Horseback Riding"
@@ -1548,10 +1548,38 @@
         "uniqueTo": "Byzantium",
         "cost": 0,
         "uniques": [
-            "[+10]% Strength <for [Military] units>",
+            "[+10]% Strength <for [Military] units>","Unsellable",
             "Can only be built <in [Holy] cities>",
             "Automatically built in all cities where it is buildable",
             "Destroyed when the city is captured"
         ]
     },
+{
+		"name": "快速科技胜利",
+		"cost": 9999,
+		"isNationalWonder": true,
+		"uniques": ["Unavailable <before the [Renaissance era]>","Triggers a global alert upon build start","Automatically built in all cities where it is buildable"
+			"Only available <when [快速科技胜利] Victory is enabled>", "Cannot be hurried"]
+	},
+{
+		"name": "快速征服胜利",
+		"cost": 9999,
+		"isNationalWonder": true,
+		"uniques": ["Triggers a global alert upon build start","Automatically built in all cities where it is buildable","Consumes [2] [征服点数]"
+			"Only available <when [快速征服胜利] Victory is enabled>", "Cannot be hurried"]
+	},
+ { 
+        "name": "征服点数",
+        "cost": 9999,
+        "uniques": [
+            "Can only be built <in [in capital] cities>","Provides [1] [征服点数]","Unsellable"
+            "Automatically built in all cities where it is buildable",
+        ]
+    },
+{
+		"name": "世界会议",
+		"isWonder": true,
+	    "cost": 9999,
+		"uniques": ["Unavailable <before the [Medieval era]>","Triggers voting for the Diplomatic Victory", "Only available <when [快速外交胜利] Victory is enabled>","Automatically built in all cities where it is buildable","Triggers a global alert upon completion"]
+				}
 ]

@@ -1624,18 +1624,18 @@
         "innerColor": [255,255,255],
 "favoredReligion": "Christianity",
 "uniqueName": "人造神地"
-"uniqueText": "所有基本地块拥有额外产出",
-"uniques": ["[+1 Food] from every [Desert]",
-"[+1 Gold] from every [Coast]",
- "[+1 Gold] from every [Grassland]",
- "[+1 Gold] from every [Lakes]",
- "[+1 Gold] from every [Ocean]",
- "[+1 Food] from every [Ocean]",
- "[+1 Gold] from every [Plains]",
- "[+1 Gold] from every [Snow]",
- "[+1 Food] from every [Snow]",
- "[+1 Gold] from every [Tundra]",
- "[+1 Food] from every [Tundra]"]
+"uniqueText": "所有基本地块拥有额外科研产出",
+"uniques": [
+ "[+1 Science] from every [Desert]",
+ "[+1 Science] from every [Coast]",
+ "[+1 Science] from every [Grassland]",
+ "[+1 Science] from every [Lakes]",
+ "[+1 Science] from every [Ocean]",
+ "[+1 Science] from every [Plains]",
+ "[+1 Science] from every [Snow]",
+ "[+1 Science] from every [Snow]",
+ "[+1 Science] from every [Tundra]",
+ "[+1 Science] from every [Tundra]"]
 "cities": ["狐都","狐一分","狐二分","狐三分","狐四分","狐五分","狐六分"]
       }
       {
