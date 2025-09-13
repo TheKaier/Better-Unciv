@@ -541,10 +541,10 @@
 
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemenid Legacy",
-	    "uniqueText": "当你建立城市，进入新时代，向主要文明宣战，攻下敌方城市时，分别进入2，3，4，5回合的黄金时代(随着游戏速度变化而变化)，所有单位在黄金时代期间加一移动力和10%战斗力",
-		"uniques": ["Empire enters a [4]-turn Golden Age <upon declaring war on [Major] Civilizations>","[+1] Movement <for [All] units> <during a Golden Age>",
-		"Empire enters a [2]-turn Golden Age <upon founding a city>",
-			"Empire enters a [5]-turn Golden Age <upon conquering a city>","[+10]% Strength <for [All] units> <during a Golden Age>","Empire enters a [3]-turn Golden Age <upon entering a new era>"],
+	    "uniqueText": "当你建立城市，进入新时代，攻下敌方城市时，分别进入3，4，5回合的黄金时代(随着游戏速度变化而变化)，所有单位在黄金时代期间加一移动力和10%战斗力",
+		"uniques": ["[+1] Movement <for [All] units> <during a Golden Age>",
+		"Empire enters a [3]-turn Golden Age <upon founding a city>",
+			"Empire enters a [5]-turn Golden Age <upon conquering a city>","[+10]% Strength <for [All] units> <during a Golden Age>","Empire enters a [4]-turn Golden Age <upon entering a new era>"],
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -1506,7 +1506,7 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
-		"uniques": ["Excluded from map editor","[-15]% Strength <for [Military] units>"]
+		"uniques": ["Excluded from map editor","[-20]% Strength <for [Military] units>"]
 	},
 	{
 "name": "虚无罗马帝国",

@@ -73,7 +73,7 @@
     },
 {
         "name": "快速征服胜利",
-        "victoryScreenHeader": "攻占敌方至少一座首都赢得胜利",
+        "victoryScreenHeader": "攻占人类玩家敌方至少一座首都赢得胜利",
         "milestones": ["Build [快速征服胜利]"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"

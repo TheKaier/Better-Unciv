@@ -196,7 +196,7 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>","Tile provides yield without assigned population",
             "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+60 Science]"]
 	},
@@ -204,14 +204,14 @@
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built",
+		"uniques": ["Great Improvement", "Removes removable features when built","Tile provides yield without assigned population",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+40 Culture]"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 6,
-		"uniques": ["Great Improvement", "[+2 Production] <after discovering [Chemistry]>", "Will not be replaced by automated units",
+		"uniques": ["Great Improvement", "[+2 Production] <after discovering [Chemistry]>", "Will not be replaced by automated units","Tile provides yield without assigned population",
             "Removes removable features when built", "Pillaging this improvement yields approximately [+40 Production]"]
 	},
 	{
@@ -219,13 +219,13 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 12,
 		"uniques": ["Great Improvement", "[+2 Gold] <after discovering [Economics]>", "Removes removable features when built",
-            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+200 Gold]"]
+            "Will not be replaced by automated units","Tile provides yield without assigned population", "Pillaging this improvement yields approximately [+200 Gold]"]
 	},
 	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+120 Faith]"]
+		"uniques": ["Great Improvement", "Removes removable features when built","Tile provides yield without assigned population", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+120 Faith]"]
 	},
 	{
 		"name": "Citadel",
@@ -234,7 +234,7 @@
 			"Great Improvement",
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
-			"Can be built just outside your borders",
+			"Can be built just outside your borders","Tile provides yield without assigned population",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
             "Will not be replaced by automated units"
@@ -313,7 +313,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 3,
 		"happiness": 3,
-		"uniques": ["Great Improvement", "Removes removable features when built",
+		"uniques": ["Great Improvement", "Removes removable features when built","Tile provides yield without assigned population",
             "Will not be replaced by automated units","Pillaging this improvement yields approximately [+100 Gold]"]
 	},
 	{
@@ -322,7 +322,7 @@
 		"uniqueTo": "九尾魔狐帝国"
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 10,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>","Tile provides yield without assigned population",
             "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+60 Science]", "Pillaging this improvement yields approximately [+80 Science]"]
 	},

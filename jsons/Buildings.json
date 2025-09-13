@@ -1492,49 +1492,49 @@
         "name": "迟暮勇武",
 		"cost": 1,
 	    "replacementTextForUniques": "所有军事单位加25%战斗力但减少一移动力",
-		"uniques": ["Unbuildable","[+25]% Strength <for [Military] units>","[-1] Movement <for [Military] units>","Unsellable", "Destroyed when the city is captured","Remove [修行制度] [in all cities]","Remove [宗教审判] [in all cities]", "Remove [私掠许可证] [in all cities]","Remove [敛财大亨] [in all cities]","Remove [穷兵黩武] [in all cities]", "Remove [集体主义] [in all cities]","Remove [强迫劳动] [in all cities]"]
+		"uniques": ["Unbuildable","[+25]% Strength <for [Military] units>","[-1] Movement <for [Military] units>","Unsellable", "Destroyed when the city is captured","Remove [迟暮勇武] [in all cities] <upon entering a new era>"]
 	},
 	{
         "name": "修行制度",
 		"cost": 1,
 	    "replacementTextForUniques": "所有城市的科研增加75%但消除每座城市的文化产出",
-		"uniques": ["Unbuildable","Nullifies [Culture] [in all cities]","Unsellable", "Destroyed when the city is captured","[+75]% [Science] [in all cities]","Remove [迟暮勇武] [in all cities]","Remove [宗教审判] [in all cities]","Remove [私掠许可证] [in all cities]","Remove [敛财大亨] [in all cities]","Remove [穷兵黩武] [in all cities]", "Remove [集体主义] [in all cities]","Remove [强迫劳动] [in all cities]"]
+		"uniques": ["Unbuildable","Nullifies [Culture] [in all cities]","Unsellable", "Destroyed when the city is captured","[+75]% [Science] [in all cities]","Remove [修行制度] [in all cities] <upon entering a new era>"]
 	},
 	{
         "name": "宗教审判",
 		"cost": 1,
 	    "replacementTextForUniques": "审判官的信仰花费减少75%，所有城市信仰产出加25%但科研产出减少33%"
-		"uniques": ["Unbuildable","[Faith] cost of purchasing [Inquisitor] units [-75]%","Unsellable", "Destroyed when the city is captured","[-33]% [Science] [in all cities]","[+25]% [Faith] [in all cities]","Remove [迟暮勇武] [in all cities]","Remove [修行制度] [in all cities]","Remove [私掠许可证] [in all cities]","Remove [敛财大亨] [in all cities]","Remove [穷兵黩武] [in all cities]", "Remove [集体主义] [in all cities]","Remove [强迫劳动] [in all cities]"]
+		"uniques": ["Unbuildable","[Faith] cost of purchasing [Inquisitor] units [-75]%","Unsellable", "Destroyed when the city is captured","[-33]% [Science] [in all cities]","[+25]% [Faith] [in all cities]","Remove [宗教审判] [in all cities] <upon entering a new era>"]
 	},
 	{
         "name": "私掠许可证",
 		"cost": 1,
-	    "replacementTextForUniques": "上单位加15%战斗力，所有军事单位劫掠时不消耗移动力，每座城市减少25%的金钱"
-		"uniques": ["Unbuildable","No movement cost to pillage <for [Military] units>","Destroyed when the city is captured","[-25]% [Gold] [in all cities]","[+15]% Strength <for [Water] units>","Remove [迟暮勇武] [in all cities]","Remove [修行制度] [in all cities]","Remove [宗教审判] [in all cities]","Remove [敛财大亨] [in all cities]","Remove [穷兵黩武] [in all cities]", "Remove [集体主义] [in all cities]","Remove [强迫劳动] [in all cities]"]
+	    "replacementTextForUniques": "水上单位加15%战斗力，所有军事单位劫掠时不消耗移动力，每座城市减少25%的金钱"
+		"uniques": ["Unbuildable","No movement cost to pillage <for [Military] units>","Destroyed when the city is captured","[-25]% [Gold] [in all cities]","[+15]% Strength <for [Water] units>","Remove [私掠许可证] [in all cities] <upon entering a new era>"]
 	},
 	{
         "name": "敛财大亨",
 		"cost": 1,
 	    "replacementTextForUniques": "每座城市加33%的金钱但人口造成的不快乐加50%"
-		"uniques": ["Unbuildable","Destroyed when the city is captured","[+33]% [Gold] [in all cities]","[+50]% Unhappiness from [Population] [in all cities]","Remove [迟暮勇武] [in all cities]","Remove [修行制度] [in all cities]","Remove [宗教审判] [in all cities]","Remove [私掠许可证] [in all cities]","Remove [穷兵黩武] [in all cities]", "Remove [集体主义] [in all cities]","Remove [强迫劳动] [in all cities]"]
+		"uniques": ["Unbuildable","Destroyed when the city is captured","[+33]% [Gold] [in all cities]","[+50]% Unhappiness from [Population] [in all cities]","Remove [敛财大亨] [in all cities] <upon entering a new era>"]
 	},
 	{
         "name": "穷兵黩武",
 		"cost": 1,
 	    "replacementTextForUniques": "每座城市建造军事单位时加33%产能，但减少10%科文，人口造成的不快乐加25%"
-		"uniques": ["Unbuildable","Destroyed when the city is captured","[+33]% Production when constructing [Military] units [in all cities]","[-10]% [Culture] [in all cities]","[-10]% [Science] [in all cities]","[+25]% Unhappiness from [Population] [in all cities]","Remove [迟暮勇武] [in all cities]","Remove [修行制度] [in all cities]","Remove [宗教审判] [in all cities]","Remove [私掠许可证] [in all cities]","Remove [敛财大亨] [in all cities]", "Remove [集体主义] [in all cities]","Remove [强迫劳动] [in all cities]"]
+		"uniques": ["Unbuildable","Destroyed when the city is captured","[+33]% Production when constructing [Military] units [in all cities]","[-10]% [Culture] [in all cities]","[-10]% [Science] [in all cities]","[+25]% Unhappiness from [Population] [in all cities]","Remove [穷兵黩武] [in all cities] <upon entering a new era>"]
 	},
 	{
         "name": "集体主义",
 		"cost": 1,
 	    "replacementTextForUniques": "所有城市加四粮食但会减一快乐"
-		"uniques": ["Unbuildable","Destroyed when the city is captured","[+4 Food] [in all cities]","Remove [迟暮勇武] [in all cities]","Remove [修行制度] [in all cities]","Remove [宗教审判] [in all cities]","Remove [私掠许可证] [in all cities]","Remove [敛财大亨] [in all cities]", "Remove [穷兵黩武] [in all cities]","Remove [强迫劳动] [in all cities]"]
+		"uniques": ["Unbuildable","Destroyed when the city is captured","[+4 Food] [in all cities]","Remove [集体主义] [in all cities] <upon entering a new era>"]
 	},
 	{
         "name": "强迫劳动",
 		"cost": 1,
 	    "replacementTextForUniques": "所有城市加25%生产力但减少2快乐"
-		"uniques": ["Unbuildable","Destroyed when the city is captured","[+25]% [Production] [in all cities]","[-2 Happiness] [in all cities]","Remove [迟暮勇武] [in all cities]","Remove [修行制度] [in all cities]","Remove [宗教审判] [in all cities]","Remove [私掠许可证] [in all cities]","Remove [敛财大亨] [in all cities]", "Remove [穷兵黩武] [in all cities]","Remove [集体主义] [in all cities]"]
+		"uniques": ["Unbuildable","Destroyed when the city is captured","[+25]% [Production] [in all cities]","[-2 Happiness] [in all cities]","Remove [强迫劳动] [in all cities] <upon entering a new era>"]
 	},
     {
 		"name": "地主权威",
@@ -1572,7 +1572,7 @@
         "name": "征服点数",
         "cost": 9999,
         "uniques": [
-            "Can only be built <in [in capital] cities>","Provides [1] [征服点数]","Unsellable"
+            "Can only be built <in [in capital] cities>","Provides [1] [征服点数]","Unsellable","Unbuildable <for [AI player] Civilizations>"
             "Automatically built in all cities where it is buildable",
         ]
     },

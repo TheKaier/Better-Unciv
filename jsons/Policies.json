@@ -11,14 +11,16 @@
         },
         "uniques": [
             "[+4 Culture] [in capital]",
-            "[-33]% Culture cost of natural border growth [in all cities]",
+            "[-33]% Culture cost of natural border growth [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]"
             "Empire enters golden age <for [England] Civilizations> <hidden from users>",
         ],
         "policies": [
             {
                 "name": "Aristocracy",
                 "uniques": [
-                    "[+25]% Production when constructing [All] wonders [in all cities]",
+                    "[+25]% Production when constructing [All] wonders [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]"
                     "[+10]% [Production] [in all cities with a world wonder]",
                 ],
                 "row": 1,
@@ -27,7 +29,8 @@
             {
                 "name": "Legalism",
                 "uniques": [
-                    "[+1 Culture] from all [Production] buildings","[-33]% unhappiness from the number of cities"
+                    "[+1 Culture] from all [Production] buildings","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","[-33]% unhappiness from the number of cities"
                 ],
                 "row": 1,
                 "column": 3
@@ -36,7 +39,8 @@
                 "name": "Oligarchy",
                 "uniques": [
                 "[-25]% maintenance costs <for [All] units>",
-                "[+1 Production] per [3] population [in all cities]",
+                "[+1 Production] per [3] population [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
                 ],
                 "row": 1,
@@ -45,7 +49,8 @@
             {
                 "name": "Landed Elite",
                 "uniques": [
-                    "[+10]% growth [in all cities]",
+                    "[+10]% growth [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+2 Production] [in capital]"
                 ],
                 "requires": ["Legalism"],
@@ -55,7 +60,8 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness, +1 Food] per [2] population [in capital]"
+                    "[+1 Gold, +1 Happiness, +1 Food] per [2] population [in capital]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -64,7 +70,8 @@
             {
                 "name": "Tradition Complete",
                 "uniques": [
-                    "[+25]% growth [in all cities]",
+                    "[+25]% growth [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Provides a [Aqueduct] in your first [4] cities for free"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
                 ]
@@ -81,13 +88,15 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+1 Culture] [in all cities]","[+1 Science] [in all cities]",
+        "uniques": ["[+1 Culture] [in all cities]","[+1 Science] [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"],
         "policies": [
             {
                 "name": "Republic",
                 "uniques": [
-                    "[+1 Production] [in all cities]",
+                    "[+1 Production] [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+10]% Production when constructing [All] buildings [in all cities]",
                 ],
                 "row": 1,
@@ -96,7 +105,8 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements",
+                    "[-25]% construction time for [All] improvements","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Free [Worker] appears"
                 ],
                 "row": 1,
@@ -105,7 +115,8 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+33]% Production when constructing [Settler] units [in capital]",
+                    "[+33]% Production when constructing [Settler] units [in capital]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Free [Settler] appears"
                 ],
                 "requires": ["Republic"],
@@ -115,7 +126,8 @@
             {
                 "name": "Representation",
                 "uniques": [
-                    "Each city founded increases culture cost of policies [50]% less than normal",
+                    "Each city founded increases culture cost of policies [50]% less than normal","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Citizenship"],
@@ -125,7 +137,8 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+2 Happiness] [in all cities connected to capital]",
+                    "[+2 Happiness] [in all cities connected to capital]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[-10]% Unhappiness from [Population] [in all non-occupied cities]"
                 ],
                 "requires": ["Citizenship"],
@@ -134,7 +147,8 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person",
+                "uniques": ["Free Great Person","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"]
             }
         ]
@@ -150,7 +164,8 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+15]% Strength <vs [Barbarian] units>",
+            "[+15]% Strength <vs [Barbarian] units>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
             "Earn [125]% of killed [Barbarian] unit's [Strength] as [Culture]",
             "Notified of new Barbarian encampments","Instantly provides [10] [战争支持]"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
@@ -159,7 +174,8 @@
             {
                 "name": "Warrior Code",
                 "uniques": [
-                    "[+20]% Production when constructing [Melee] units [in all cities]","Instantly provides [20] [战争支持]",
+                    "[+20]% Production when constructing [Melee] units [in all cities]","Instantly provides [20] [战争支持]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Free [Great General] appears"
                 ],
                 "row": 1,
@@ -168,7 +184,8 @@
             {
                 "name": "Discipline",
                 "uniques": [
-                   "[+15]% Strength <for [Military] units> <when adjacent to a [Military] unit>","Instantly provides [20] [战争支持]"
+                   "[+15]% Strength <for [Military] units> <when adjacent to a [Military] unit>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","Instantly provides [20] [战争支持]"
                 ],
                 "row": 1,
                 "column": 4
@@ -176,7 +193,8 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    "[+66]% XP gained from combat <for [Military] units>","Instantly provides [30] [战争支持]"
+                    "[+66]% XP gained from combat <for [Military] units>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","Instantly provides [30] [战争支持]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
@@ -185,7 +203,8 @@
             {
                 "name": "Military Caste",
                 "uniques": [
-                    "[+2 Happiness, +2 Culture] [in all cities with a garrison]","Instantly provides [30] [战争支持]"
+                    "[+2 Happiness, +2 Culture] [in all cities with a garrison]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","Instantly provides [30] [战争支持]"
                 ],
                 "requires": ["Discipline"],
                 "row": 2,
@@ -194,7 +213,8 @@
             {
                 "name": "Professional Army",
                 "uniques": [
-                    "[-50]% Gold cost of upgrading <for [Military] units>",
+                    "[-50]% Gold cost of upgrading <for [Military] units>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Arsenal]",
@@ -207,7 +227,8 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [33]% of killed [Military] unit's [Cost] as [Gold]","Instantly provides [50] [战争支持]"
+                    "Earn [33]% of killed [Military] unit's [Cost] as [Gold]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","Instantly provides [50] [战争支持]"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
                 ]
             }
@@ -225,14 +246,16 @@
         },
         "uniques": [
             "Provides the cheapest [Faith] building in your first [3] cities for free"
-            "[+15]% Production when constructing [Faith] buildings [in all cities]",
+            "[+15]% Production when constructing [Faith] buildings [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
         ],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [Faith]"
+                    "[+1 Faith] from every [Faith]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 1,
                 "column": 2
@@ -240,7 +263,8 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                "[+2 Culture, +2 Gold] from every [Shrine]",
+                "[+2 Culture, +2 Gold] from every [Shrine]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 "[+2 Culture, +2 Food] from every [Temple]"
                 ],
                 "row": 1,
@@ -249,7 +273,8 @@
             {
                 "name": "Theocracy",
                 "uniques": [
-                "[+50]% Natural religion spread [in all cities]"
+                "[+50]% Natural religion spread [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 "Free [Great Prophet] appears"
                 ],
                 "requires": ["Organized Religion"],
@@ -259,7 +284,8 @@
             {
                 "name": "Reformation",
                 "uniques": [
-                    "[+10]% [Culture] [in all cities]",
+                    "[+10]% [Culture] [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Empire enters golden age"
                 ],
                 "requires": ["Organized Religion"],
@@ -268,7 +294,8 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": ["[-10]% Culture cost of adopting new Policies"],
+                "uniques": ["[-10]% Culture cost of adopting new Policies","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
                 "column": 4
@@ -276,7 +303,8 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-25]%",
+                    "[Faith] cost of purchasing items in cities [-25]%","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+1 Gold, +1 Culture] from every [Holy site]"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
                 ]
@@ -293,14 +321,16 @@
             "Domination": 5,
             "Scientific": 5
         },
-        "uniques": ["[-33]% City-State Influence degradation"
+        "uniques": ["[-33]% City-State Influence degradation","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
         ],
         "policies": [
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [50]% more Influence"
+                    "Gifts of Gold to City-States generate [50]% more Influence","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 1,
                 "column": 2
@@ -308,7 +338,8 @@
             {
                 "name": "Aesthetics",
                 "uniques": [
-                    "Resting point for Influence with City-States is increased by [30]"
+                    "Resting point for Influence with City-States is increased by [30]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 1,
                 "column": 4
@@ -316,7 +347,8 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [33]% of what they produce for themselves"
+                    "Allied City-States provide [Science] equal to [33]% of what they produce for themselves","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -325,7 +357,8 @@
             {
                 "name": "Cultural Diplomacy",
                 "uniques": [
-                    "[+100]% resources gifted by City-States",
+                    "[+100]% resources gifted by City-States","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+100]% Happiness from luxury resources gifted by City-States"
                 ],
                 "requires": ["Scholasticism"],
@@ -336,7 +369,8 @@
                 "name": "Educated Elite",
                 "requires": ["Scholasticism", "Aesthetics"],
                 "uniques": [
-                    "Allied City-States will occasionally gift Great People"
+                    "Allied City-States will occasionally gift Great People","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 3,
                 "column": 4
@@ -344,7 +378,8 @@
             {
                 "name": "Patronage Complete",
                 "uniques": [
-                    "Influence of all other civilizations with all city-states degrades [25]% faster",
+                    "Influence of all other civilizations with all city-states degrades [25]% faster","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
                 ]
@@ -362,13 +397,15 @@
             "Scientific": 5
         },
         "uniques": ["[+33]% [Gold] [in capital]"
-"Empire enters golden age <for [England] Civilizations> <hidden from users>"],
+"Empire enters golden age <for [England] Civilizations> <hidden from users>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
         "policies": [
             {
                 "name": "Naval Tradition",
                 "uniques": [
                     "[+1] Movement <for [{Military} {Water}] units>",
-                    "[+1] Sight <for [{Military} {Water}] units>",
+                    "[+1] Sight <for [{Military} {Water}] units>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "Free [Great General] appears"
                     // "[+2] Movement <for [Great Admiral] units>"
                     // ToDo: Should be "Free [Great Admiral] appears"
@@ -379,7 +416,8 @@
             {
                 "name": "Trade Unions",
                 "uniques": [
-                    "[-25]% maintenance on road & railroads",
+                    "[-25]% maintenance on road & railroads","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+1 Gold] from every [Harbor]",
                     "[+1 Gold] from every [Seaport]"
                 ],
@@ -388,7 +426,8 @@
             },
             {
                 "name": "Merchant Navy",
-                "uniques": ["[+4 Production] [in all coastal cities]"],
+                "uniques": ["[+4 Production] [in all coastal cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "requires": ["Naval Tradition"],
                 "row": 2,
                 "column": 2
@@ -396,7 +435,8 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%",
+                    "[Gold] cost of purchasing items in cities [-25]%","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+1 Science] from every [Mint]",
                     "[+1 Science] from every [Market]",
                     "[+1 Science] from every [Bank]",
@@ -408,7 +448,8 @@
             },
             {
                 "name": "Protectionism",
-                "uniques": ["[+3] Happiness from each type of luxury resource"],
+                "uniques": ["[+3] Happiness from each type of luxury resource","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "requires": ["Mercantilism"],
                 "row": 3,
                 "column": 4
@@ -416,7 +457,8 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+2 Gold] from every [Trading post]",
+                    "[+2 Gold] from every [Trading post]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+80]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
@@ -435,14 +477,16 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+20]% [Science] <while the empire is happy>",
+            "[+20]% [Science] <while the empire is happy>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
         ],
         "policies": [
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
+                    "[+2 Science] from every specialist [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 1,
                 "column": 2
@@ -450,7 +494,8 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
+                    "[+1 Happiness] from every [University]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+1 Happiness] from every [Observatory]",
                     "[+1 Happiness] from every [Public School]"
                 ],
@@ -460,7 +505,8 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
+                    "[+1 Science] from every [Trading post]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+15]% [Science] from every [University]"
                 ],
                 "requires": ["Secularism"],
@@ -469,14 +515,16 @@
             },
             {
                 "name": "Sovereignty",
-                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "uniques": ["[+1 Gold] from all [Science] buildings","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "requires": ["Humanism"],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Science gained from research agreements [+100]%"],
+                "uniques": ["Science gained from research agreements [+100]%","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "requires": ["Free Thought"],
                 "row": 3,
                 "column": 2
@@ -484,7 +532,8 @@
             {
                 "name": "Rationalism Complete",
                 "uniques": [
-                    "[2] Free Technologies",
+                    "[2] Free Technologies","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
                 ]
@@ -502,34 +551,39 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+33]% Great Person generation [in all cities]",
+            "[+33]% Great Person generation [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
             "Only available <before adopting [Order]>"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
         ],
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+2 Culture] from every [Wonder]"],
+                "uniques": ["[+2 Culture] from every [Wonder]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["[+25]% Strength for cities <when defending>"],
+                "uniques": ["[+25]% Strength for cities <when defending>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-33]% Food consumption by specialists [in all cities]"
+                    "[-33]% Food consumption by specialists [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[10] units cost no maintenance"],
+                "uniques": ["[10] units cost no maintenance","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",],
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1
@@ -537,7 +591,8 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]"
+                    "[-50]% Unhappiness from [Specialists] [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,
@@ -546,7 +601,8 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "[+100]% Yield from every [Great Improvement]",
+                    "[+100]% Yield from every [Great Improvement]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+100]% Golden Age length",
                     "May buy [Great Artist] units for [1500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([600]) <starting from the [Industrial era]>"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
@@ -565,27 +621,31 @@
             "Scientific": 5
         },
         "uniques": [
-            "[-33]% maintenance costs <for [All] units>",
+            "[-33]% maintenance costs <for [All] units>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately","Instantly provides [50] [战争支持]",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
             ],
         "policies": [
             {
                 "name": "Populism",
-                "uniques": ["[+25]% Strength <for [Wounded] units>","Instantly provides [60] [战争支持]"],
+                "uniques": ["[+25]% Strength <for [Wounded] units>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","Instantly provides [60] [战争支持]"],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Militarism",
-                "uniques": ["[Gold] cost of purchasing [All] units [-50]%","Instantly provides [60] [战争支持]"],
+                "uniques": ["[Gold] cost of purchasing [All] units [-50]%","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","Instantly provides [60] [战争支持]"],
                 "row": 1,
                 "column": 4
             },
             {
                 "name": "Fascism",
                 "uniques": [
-                    "[+100]% [Strategic] resource production",
+                    "[+100]% [Strategic] resource production","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+2] Movement <for [Great General] units>","Instantly provides [70] [战争支持]"
                 ],
                 "requires": ["Populism", "Militarism"],
@@ -595,7 +655,8 @@
             {
                 "name": "Police State",
                 "uniques": [
-                    "[+1 Happiness] from every [Courthouse]",
+                    "[+1 Happiness] from every [Courthouse]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+66]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[-20]% enemy spy effectiveness [in all cities]","Instantly provides [70] [战争支持]"
                 ],
@@ -606,7 +667,8 @@
             {
                 "name": "Total War",
                 "uniques": [
-                    "[+50]% Production when constructing [Military] units [in all cities]",
+                    "[+50]% Production when constructing [Military] units [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "New [Military] units start with [15] XP [in all cities]","Instantly provides [80] [战争支持]"
                 ],
                 "requires": ["Police State", "Fascism"],
@@ -616,7 +678,8 @@
             {
                 "name": "Autocracy Complete",
                 "uniques": [
-                    "[+33]% Strength <when attacking> <for [Military] units> <for [66] turns>","Instantly provides [100] [战争支持]"
+                    "[+33]% Strength <when attacking> <for [Military] units> <for [66] turns>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]","Instantly provides [100] [战争支持]"
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
                 ]
@@ -635,14 +698,16 @@
         },
         "uniques": [
             "[+1 Happiness] [in all cities]",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Freedom]>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
         ],
         "policies": [
             {
                 "name": "United Front",
                 "uniques": [
-                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 1,
                 "column": 1
@@ -650,7 +715,8 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-                    "[+25]% [Science] from every [Factory]",
+                    "[+25]% [Science] from every [Factory]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "[+66]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
@@ -659,7 +725,8 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 1,
                 "column": 5
@@ -668,7 +735,8 @@
                 "name": "Socialism",
                 "requires": ["Planned Economy"],
                 "uniques": [
-                    "[-20]% maintenance cost for [all] buildings [in all cities]"
+                    "[-20]% maintenance cost for [all] buildings [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 2,
                 "column": 3
@@ -679,7 +747,8 @@
                 "uniques": [
                     "[+1 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
+                    "[+1 Production] from every [Quarry]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                 ],
                 "row": 3,
                 "column": 3
@@ -687,7 +756,8 @@
             {
                 "name": "Order Complete",
                 "uniques": [
-                    "[+3 Food, +3 Production, +3 Science, +3 Gold, +3 Culture] [in all cities]",
+                    "[+3 Food, +3 Production, +3 Science, +3 Gold, +3 Culture] [in all cities]","[+100]% weight to this choice for AI decisions","Instantly provides [1] [时代分] <if no other Civilization has adopted this>",
+"Instantly provides [1] [时代分]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 "Empire enters golden age <for [England] Civilizations> <hidden from users>"
                 ]

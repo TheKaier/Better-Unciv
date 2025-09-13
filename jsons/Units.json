@@ -1970,7 +1970,7 @@
 		"rangedStrength": 1,
 		"range": 1,
 		"cost": 1,
-		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units", "[+99] Sight", "Can see over obstacles"],
+		"uniques": ["Damage taken from interception reduced by [100]%", "Cannot be carried by [Carrier] units","Limited to [1] per Civilization","Cannot attack","[+99] Sight", "Can see over obstacles"],
 		"attackSound": "bombing"
 	},
 	{
