@@ -221,18 +221,17 @@
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]","[+1 Production] from [Water resource] tiles [in this city]"],
+		"uniques": ["Must be next to [Coast]","Connects trade routes over water","[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
 		"requiredTech": "Optics"
 	},
 	{
 		"name": "The Great Lighthouse",
 		"cost": 185,
-		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [Water] units>",
+			"[+15]% Strength <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in all cities]"],
 		"requiredTech": "Optics",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
 	},
@@ -539,10 +538,11 @@
 	{
 		"name": "Harbor",
 		"cost": 120,
-		"maintenance": 2,
+		"maintenance": 0,
+		"gold": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Connects trade routes over water","Must be next to [Coast]"],
+			"[+1 Production] from [Water resource] tiles [in this city]","Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -773,10 +773,10 @@
 	{
 		"name": "Seaport",
 		"hurryCostModifier": 25,
-		"maintenance": 3,
+		"maintenance": 2,
 		"requiredBuilding": "Harbor",
-		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"uniques": ["[+1 Production, +2 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+25]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
 	},
 	{
@@ -822,6 +822,7 @@
 		"replaces": "Windmill",
 		"uniqueTo": "Austria",
 		"production": 2,
+		"food": 2,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,

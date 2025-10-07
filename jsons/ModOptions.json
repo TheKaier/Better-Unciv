@@ -2,7 +2,8 @@
 "isBaseRuleset": true,
 "uniques":[
         "Allow raze capital",
-        "Allow raze holy city"
+        "Allow raze holy city",
+        "Can trade civilization introductions for [100] Gold"
     ],
 "constants":{"maxXPfromBarbarians": 30,
 "cityWorkRange": 4,

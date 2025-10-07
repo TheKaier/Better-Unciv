@@ -3,6 +3,7 @@
 	{
 		"name": "Ocean",
 		"type": "Water",
+		"food": 1,
 		"gold": 2,
 		"movementCost": 1,
 		"RGB": [43, 87, 151]
@@ -127,7 +128,7 @@
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
-            //"Units ending their turn on this terrain take [50] damage",
+            "Units ending their turn on this terrain take [33] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
 	},

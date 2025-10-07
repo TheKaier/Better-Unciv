@@ -1025,7 +1025,7 @@
     },
     {
 		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [100] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Foot Soldier",
 		"Shooter",
 		"Mobile",
@@ -1658,4 +1658,97 @@
 		"name": "Extended Range"
 		"uniques": ["[+1] Range"]
 	},
+{
+	    "name": "急行军",//
+		"uniques": [
+		
+		"Doing so will consume this opportunity to choose a Promotion",
+		
+		"[This Unit] gains [1] movement",
+		]
+	},
+	{
+	    "name": "伏击战术",//
+		"uniques": [
+		
+		"Doing so will consume this opportunity to choose a Promotion",
+		"[This Unit] gains the [[伏击]] status for [2] turn(s)",
+		//"Invisible to non-adjacent units",
+		]
+	},
+	{
+	    "name": "[伏击]",//
+		"uniques": [
+		
+		
+		
+		"Invisible to non-adjacent units",
+		]
+	},
+	
+	
+	
+	{
+	    "name": "穿插战术",//
+		"uniques": [
+		
+		"Doing so will consume this opportunity to choose a Promotion",
+		"[This Unit] gains the [[穿插]] status for [2] turn(s)",
+		//"Ignores Zone of Control",
+		]
+	},
+	{
+	    "name": "[穿插]",//
+		"uniques": [
+		
+		
+		
+		"Ignores Zone of Control",
+		]
+	},
+	
+	
+	
+	
+	{
+	    "name": "迂回战术",//
+		"uniques": [
+		"Doing so will consume this opportunity to choose a Promotion",
+		"[This Unit] gains the [[迂回]] status for [2] turn(s)",
+		//"Withdraws before melee combat",
+		]
+	},
+
+            {
+	    "name": "[迂回]",//
+		"uniques": [
+		
+		
+		"Withdraws before melee combat",
+		]
+	},
+{
+        "name": "进货",
+        "uniques":["Cannot move"]
+    },
+    {
+        "name": "货物",
+        "uniques":["[-1] Movement"]
+    },
+    
+    // 货物
+    {
+        "name": "运送粮食",
+        "uniques":["[-1] Movement", "Gain [-1] [Gold] <upon turn end>"]
+    },
+
+    {
+        "name": "运送产能",
+        "uniques":["[-1] Movement", "Gain [-1] [Gold] <upon turn end>"]
+    },
+
+    {
+        "name": "运送金钱",
+        "uniques":["[-1] Movement", "Gain [-1] [Gold] <upon turn end>"]
+    }
 ]    

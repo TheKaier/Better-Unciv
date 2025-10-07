@@ -16,7 +16,7 @@
 		"movement": 2,
 		"cost": 80,
 		"uniques": ["Founds a new city <by consuming this unit>","Unbuildable <for [孤高王庭] Civilizations>","[+2] Movement <for [孤高王庭] Civilizations>","[-1] population [in this city]",
-			"Requires at least [2] population","[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>"],
+			"Requires at least [3] population","[-25]% production cost <for [Iroquois] Civilizations> <hidden from users>"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -154,20 +154,30 @@
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 30,
+		"movement": 2,
+		"cost": 80,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>","[-1] population [in this city]",
+			"Requires at least [2] population","Can build [Water] improvements on tiles","[This Unit] gains the [进货] status for [4] turn(s) <for all movement> <in [{improved} {resource}] tiles> <in [non-[City center]] tiles> <for units without [进货]> <for units without [运送粮食]> <for units without [运送产能]> <for units without [运送金钱]> <hidden from users>",
+		
+		"[This Unit] gains the [运送粮食] promotion <upon losing the [进货] status> <in [{improved} {Bonus resource}] tiles> <hidden from users>", 
+		"[This Unit] gains the [运送产能] promotion <upon losing the [进货] status> <in [{improved} {Strategic resource}] tiles> <hidden from users>", 
+		"[This Unit] gains the [运送金钱] promotion <upon losing the [进货] status> <in [{improved} {Luxury resource}] tiles> <hidden from users>", 
+		
+		"[This Unit] loses the [运送粮食] promotion <costs [-20 Food] stats> <for units with [运送粮食]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [运送粮食] promotion <costs [-40 Food] stats> <for units with [运送粮食]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [运送粮食] promotion <costs [-80 Food] stats> <for units with [运送粮食]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
+		"[This Unit] loses the [运送产能] promotion <costs [-20 Production] stats> <for units with [运送产能]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [运送产能] promotion <costs [-40 Production] stats> <for units with [运送产能]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [运送产能] promotion <costs [-80 Production] stats> <for units with [运送产能]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",	
+		"[This Unit] loses the [运送金钱] promotion <costs [-70 Gold] stats> <for units with [运送金钱]> <in [City center] tiles> <before the [Medieval era]> <hidden from users>", "[This Unit] loses the [运送金钱] promotion <costs [-140 Gold] stats> <for units with [运送金钱]> <in [City center] tiles> <starting from the [Medieval era]> <before the [Industrial era]> <hidden from users>", "[This Unit] loses the [运送金钱] promotion <costs [-280 Gold] stats> <for units with [运送金钱]> <in [City center] tiles> <starting from the [Industrial era]> <hidden from users>",
+		"Comment [Can obtain Cargos in improved resource tiles(requires 3 turns)\nCan sell cargos in [City center] tiles\n-1 Movement if having Cargos]",
             "Automation is a primary action"]
 	},
 	{
 		"name": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 10,
+		"strength": 12,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -178,10 +188,10 @@
 		"uniqueTo": "Carthage",
 		"replaces": "Trireme",
 		"movement": 4,
-		"strength": 13,
+		"strength": 14,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -196,7 +206,7 @@
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>", "[+50]% Strength <vs [Water] units>"],
 		"upgradesTo": "Galleass",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "arrow"
@@ -208,7 +218,7 @@
 		"movement": 3,
 		"strength": 7,
 		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>"],
 		"upgradesTo": "Trireme",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -551,7 +561,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -772,7 +782,7 @@
 		"name": "Caravel",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 20,
+		"strength": 21,
 		"cost": 120,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
@@ -792,7 +802,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Optics]>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1633,7 +1643,17 @@
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
-			"Great Person - [War]", "Unbuildable",
+			"Great Person - [War]", "Unbuildable","[All] units gain the [Heal Instantly] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [急行军] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            
+            
+            /*"[All] gains the [伏击战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [穿插战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [迂回战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",*/
+            
+            "[All] units gain the [伏击战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [穿插战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [迂回战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
 		],
 		"movement": 2
 	},
@@ -1650,7 +1670,17 @@
 			"Can be earned through combat",
             "Great Person - [War]", "Unbuildable", 
 "Can be earned through combat",
-			"Great Person - [War]", "Unbuildable",
+			"Great Person - [War]", "Unbuildable","[All] units gain the [Heal Instantly] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [急行军] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            
+            
+            /*"[All] gains the [伏击战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [穿插战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [迂回战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",*/
+            
+            "[All] units gain the [伏击战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [穿插战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [迂回战术] promotion <for all movement> <[1] times> <after which this unit is consumed>"
             ],
 		"movement": 5
 	},
@@ -1748,7 +1778,17 @@
             "[+20]% Strength bonus for [Siege] units within [3] tiles",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can be earned through combat",
+			"Can be earned through combat","[All] units gain the [Heal Instantly] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [急行军] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            
+            
+            /*"[All] gains the [伏击战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [穿插战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [迂回战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",*/
+            
+            "[All] units gain the [伏击战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [穿插战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [迂回战术] promotion <for all movement> <[1] times> <after which this unit is consumed>"
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 2
 	},
@@ -1807,7 +1847,17 @@
             "[+10]% Strength bonus for [Military] units within [3] tiles",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>","[All] units gain the [Heal Instantly] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [急行军] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            
+            
+            /*"[All] gains the [伏击战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [穿插战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [迂回战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",*/
+            
+            "[All] units gain the [伏击战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [穿插战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [迂回战术] promotion <for all movement> <[1] times> <after which this unit is consumed>"
 			"Can be earned through combat",
 			"Great Person - [War]", "Unbuildable"]
 		"movement": 2
@@ -1854,7 +1904,17 @@
 			"Can be earned through combat",
 		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>","[All] units gain the [Heal Instantly] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [急行军] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            
+            
+            /*"[All] gains the [伏击战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [穿插战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [迂回战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",*/
+            
+            "[All] units gain the [伏击战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [穿插战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [迂回战术] promotion <for all movement> <[1] times> <after which this unit is consumed>"
 			"Great Person - [War]", "Unbuildable"]
 		"movement": 3
 	},
@@ -1897,7 +1957,17 @@
 		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-		"Unbuildable",
+		"Unbuildable","[All] units gain the [Heal Instantly] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [急行军] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            
+            
+            /*"[All] gains the [伏击战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [穿插战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [迂回战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",*/
+            
+            "[All] units gain the [伏击战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [穿插战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [迂回战术] promotion <for all movement> <[1] times> <after which this unit is consumed>"
 		"[+1] Movement <after adopting [Discipline]>"
 		"Can be earned through combat",
 			"Great Person - [War]", "Unbuildable",
@@ -2037,6 +2107,17 @@
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "[All] units gain the [Heal Instantly] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [急行军] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            
+            
+            /*"[All] gains the [伏击战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [穿插战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] gains the [迂回战术] status for [2] turn(s) <for all movement> <[1] times> <after which this unit is consumed>",*/
+            
+            "[All] units gain the [伏击战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [穿插战术] promotion <for all movement> <[1] times> <after which this unit is consumed>",
+            "[All] units gain the [迂回战术] promotion <for all movement> <[1] times> <after which this unit is consumed>"
 			"Can be earned through combat",
 			"Can Spread Religion <for [1] movement> <[1] times>"
 			"Great Person - [War]", "Unbuildable"],
